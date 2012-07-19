@@ -1,0 +1,50 @@
+
+body {
+  background-image: url(img/broadsound.jpeg);
+  background-position: center;
+  background-position-y: top;
+  }
+
+h2 {
+  color: #fff;
+  font-family:"Capture it";
+  text-align: center;
+  top: 200px;
+  font-size: 81px;
+  }
+
+a {
+  color: #fff;
+  text-decoration: underline;
+  }
+
+.animate-fast {
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition:    all .2s ease-in-out;
+  -o-transition:      all .2s ease-in-out;
+  -ms-transition:     all .2s ease-in-out;
+  transition:         all .2s ease-in-out;
+  }
+  
+.hero {
+  opacity: .9;
+  -webkit-transition: all .96s ease-in;
+  -moz-transition:    all .96s ease-in;
+  -o-transition:      all .96s ease-in;
+  -ms-transition:     all .96s ease-in;
+  transition:         all .96s ease-in;
+  }
+  
+.actions {
+  font-family: 'Nixie One', cursive;
+  font-size:20px;
+  color: #fff;
+  }
+
+.facebook{
+  margin-left: 80px;
+
+  }
+.twitter{
+  margin-left: 120px;
+  }
