@@ -9,20 +9,35 @@
     <meta name='apple-mobile-web-app-status-bar-style' content='black' />
     <meta name='apple-mobile-web-app-capable' content='yes' />
     <!-- <link href='site.css' rel='stylesheet'> -->
-    <link href='http://fonts.googleapis.com/css?family=Karla:400,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:300' rel='stylesheet' type='text/css'>
 </head>
 
 <style type="text/css">
 
+@font-face {
+  font-family: 'Capture it';
+    src: url('fonts/Capture\ it.ttf'); format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
 body {
-  background-image: url(broadsound.jpeg)
+  background-image: url(broadsound.jpeg);
+  background-position: center;
+  background-position-y: top;
   }
 
 h2 {
   color: #fff;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: Capture;
+  font-family:"Capture it";
+  text-align: center;
+  top: 200px;
+  font-size: 81px;
+  }
+
+a {
+  color: #fff;
+  text-decoration: underline;
   }
 
 .animate-fast {
@@ -33,20 +48,42 @@ h2 {
   transition:         all .2s ease-in-out;
   }
   
-.animate-slow {
-  /*opacity: .1;*/
+.hero {
+  opacity: .9;
   -webkit-transition: all .96s ease-in;
   -moz-transition:    all .96s ease-in;
   -o-transition:      all .96s ease-in;
   -ms-transition:     all .96s ease-in;
   transition:         all .96s ease-in;
   }
+  
+.actions {
+  font-family: 'Josefin Slab', serif;
+  font-size:20px;
+  color: #fff;
+  }
 
+.facebook{
+  margin-left: 80px;
+
+  }
+.twitter{
+  margin-left: 120px;
+  }
 </style>
 
-
 <div class='hero'>
-	<h2 class="animate-slow hide">Broadsound</h2>
+	<h2><img src="hero.png" /> </h2>
+</div>
+
+<div class="actions">
+	<span class="facebook">
+		<a href="https://www.facebook.com/pages/BroadSound-Band/155233086462">facebook</a>
+	</span>
+	<span class="twitter">
+		<a href="https://twitter.com/Broadsound">twitter</a>
+	</span>
+
 </div>
 
 </html>
