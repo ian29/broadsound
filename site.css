@@ -1,22 +1,18 @@
-
 body {
-  background-image: url(img/broadsound.jpeg);
-  background-position: center;
-  background-position-y: top;
-  }
-
-h2 {
+  background: #23161d url(img/broadsound.jpeg) no-repeat fixed center ;
+  background-size: 100%;
   color: #fff;
-  font-family:"Capture it";
-  text-align: center;
-  top: 200px;
-  font-size: 81px;
+  font-family: 'Gentium Book Basic', serif;
   }
 
 a {
   color: #fff;
   text-decoration: underline;
   }
+
+a:hover { color: #d8481c;}
+
+p { font-size: 18px; }
 
 .animate-fast {
   -webkit-transition: all .2s ease-in-out;
@@ -26,25 +22,17 @@ a {
   transition:         all .2s ease-in-out;
   }
   
-.hero {
-  opacity: .9;
-  -webkit-transition: all .96s ease-in;
-  -moz-transition:    all .96s ease-in;
-  -o-transition:      all .96s ease-in;
-  -ms-transition:     all .96s ease-in;
-  transition:         all .96s ease-in;
-  }
-  
 .actions {
-  font-family: 'Nixie One', cursive;
+  font-family: 'Courier New', monospace;
   font-size:20px;
   color: #fff;
+  text-align: center;
   }
 
-.facebook{
-  margin-left: 80px;
+.content { 
+  width:50%;
+  text-align: center;
+  margin-left: 21.333%;
+}
 
-  }
-.twitter{
-  margin-left: 120px;
-  }
+#brand { margin: 40px; }
