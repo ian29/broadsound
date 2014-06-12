@@ -13,13 +13,24 @@ body {
   margin-left: 10%;
   }
 
+h1 {
+  font-size: 200%;
+  padding: 2%;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: underline;
+}
+
 a {
   color: #fff;
-  }
+}
 
-a:hover { color: #d8481c;}
+a:hover { color: #d8481c; }
+a:hover.quiet {
+  color: #fff;
+}
 
-p { font-size: 50%; }
+p { font-size: 45%; }
 
 .animate-fast {
   -webkit-transition: all .2s ease-in-out;
@@ -34,9 +45,11 @@ p { font-size: 50%; }
   text-align: center;
 }
 
-h1 {
-  font-size: 200%;
-  padding: 2%;
-  text-transform: uppercase;
-  letter-spacing: 4px;
+.quiet { color: #fff; }
+.soft { color: #999; }
+
+ul {
+  font-size: 30px;
+  text-align: left;
+  letter-spacing: 1px;
 }
