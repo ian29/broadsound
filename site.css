@@ -1,18 +1,25 @@
+@font-face
+{
+font-family: 'Bebas Neue';
+src: url('fonts/BebasNeue.otf'),
+}
+
 body {
-  background: #23161d url(img/broadsound.jpeg) no-repeat fixed center ;
+  background-color: #1b1b1b;
   background-size: 100%;
   color: #fff;
-  font-family: 'Gentium Book Basic', serif;
+  font: 100 92px/1 'Bebas Neue';
+  text-align: center;
+  margin-left: 10%;
   }
 
 a {
   color: #fff;
-  text-decoration: underline;
   }
 
 a:hover { color: #d8481c;}
 
-p { font-size: 18px; }
+p { font-size: 50%; }
 
 .animate-fast {
   -webkit-transition: all .2s ease-in-out;
@@ -21,18 +28,15 @@ p { font-size: 18px; }
   -ms-transition:     all .2s ease-in-out;
   transition:         all .2s ease-in-out;
   }
-  
-.actions {
-  font-family: 'Courier New', monospace;
-  font-size:20px;
-  color: #fff;
-  text-align: center;
-  }
 
-.content { 
-  width:50%;
+.content {
+  width:90%;
   text-align: center;
-  margin-left: 21.333%;
 }
 
-#brand { margin: 40px; }
+h1 {
+  font-size: 200%;
+  padding: 2%;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
