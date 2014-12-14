@@ -1,7 +1,6 @@
-@font-face
-{
-font-family: 'Bebas Neue';
-src: url('fonts/BebasNeue.otf'),
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('fonts/BebasNeue.otf'),
 }
 
 body {
@@ -15,9 +14,9 @@ body {
 
 h1 {
   font-size: 200%;
-  padding: 2%;
   text-transform: uppercase;
   letter-spacing: 4px;
+  line-height: -2;
   text-decoration: underline;
 }
 
@@ -25,12 +24,17 @@ a {
   color: #fff;
 }
 
-a:hover { color: #d8481c; }
+a:hover { color: #f05; }
 a:hover.quiet {
   color: #fff;
 }
 
-p { font-size: 45%; }
+p {
+  color: #bbb;
+  font-size: 30%;
+  font-weight: 100;
+  font-family: 'Source Sans Pro';
+}
 
 .animate-fast {
   -webkit-transition: all .2s ease-in-out;
@@ -38,7 +42,7 @@ p { font-size: 45%; }
   -o-transition:      all .2s ease-in-out;
   -ms-transition:     all .2s ease-in-out;
   transition:         all .2s ease-in-out;
-  }
+}
 
 .content {
   width:90%;
@@ -52,4 +56,31 @@ ul {
   font-size: 30px;
   text-align: left;
   letter-spacing: 1px;
+}
+
+#FAQ {
+  widows: 100%
+}
+
+#tag {
+  font-family: 'Niconne';
+  font-size: 26px;
+}
+
+.nav {
+  font-size: 58px;
+  padding: 40px;
+  left: 0px;
+  z-index: 999;
+  width:100%;
+}
+
+a   .nav {
+  padding-left: 40px;
+}
+
+.fixed {
+  position: fixed;
+  top: 0px;
+  background-color: #000;
 }
