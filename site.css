@@ -7,23 +7,25 @@ body {
   background-color: #1b1b1b;
   background-size: 100%;
   color: #fff;
-  font: 100 92px/1 'Bebas Neue';
+  font: 100 22px/1.3 'Old Standard TT';
   text-align: center;
   margin: 0 10% 0 10%;
   }
 
+h1, h2, h3 {
+  font: 92px/1 'Bebas Neue';
+}
+
 h1 {
-  font-size: 200%;
-  text-transform: uppercase;
+  font-size: 184px;
   letter-spacing: 4px;
   line-height: -2;
   text-decoration: underline;
 }
 
-a {
-  color: #fff;
-}
+h2 { font-size: 134px; }
 
+a { color: #fff; }
 a:hover { color: #f05; }
 a:hover.quiet {
   color: #fff;
@@ -50,19 +52,18 @@ li { list-style-type: none }
   text-align: center;
 }
 
-.quiet { color: #fff; }
+
 .soft { color: #999; }
-.strong { font-weight: bolder; }
-.bebas { font: 32 92px/1 'Bebas Neue'; }
+.bebas { font: 100 92px/1 'Bebas Neue';  }
+.strong {
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 90%;
+}
 
 ul {
   font-size: 30px;
   text-align: left;
-  letter-spacing: 1px;
-}
-
-#FAQ {
-  widows: 100%
 }
 
 .nav {
@@ -81,4 +82,8 @@ ul {
   position: fixed;
   top: 0px;
   background-color: #1b1b1b;
+}
+
+.question, .answer {
+  font-size: 48px;
 }
