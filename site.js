@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
 
-    var aboveHeight = $('div.header').outerHeight() + 130;
+    var aboveHeight = $('div.header').outerHeight();
     $(window).scroll(function(){
 
         if ( $(window).scrollTop() > aboveHeight ){
