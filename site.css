@@ -1,22 +1,40 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('fonts/BebasNeue.otf'),
+}
 
 body {
-  background-image: url(img/broadsound.jpeg);
-  background-position: center;
-  background-position-y: top;
+  background-color: #1b1b1b;
+  background-size: 100%;
+  color: #fff;
+  font: 100 92px/1 'Bebas Neue';
+  text-align: center;
+  margin-left: 10%;
   }
 
-h2 {
-  color: #fff;
-  font-family:"Capture it";
-  text-align: center;
-  top: 200px;
-  font-size: 81px;
-  }
+h1 {
+  font-size: 200%;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: -2;
+  text-decoration: underline;
+}
 
 a {
   color: #fff;
-  text-decoration: underline;
-  }
+}
+
+a:hover { color: #f05; }
+a:hover.quiet {
+  color: #fff;
+}
+
+p {
+  color: #bbb;
+  font-size: 30%;
+  font-weight: 100;
+  font-family: 'Source Sans Pro';
+}
 
 .animate-fast {
   -webkit-transition: all .2s ease-in-out;
@@ -24,27 +42,45 @@ a {
   -o-transition:      all .2s ease-in-out;
   -ms-transition:     all .2s ease-in-out;
   transition:         all .2s ease-in-out;
-  }
-  
-.hero {
-  opacity: .9;
-  -webkit-transition: all .96s ease-in;
-  -moz-transition:    all .96s ease-in;
-  -o-transition:      all .96s ease-in;
-  -ms-transition:     all .96s ease-in;
-  transition:         all .96s ease-in;
-  }
-  
-.actions {
-  font-family: 'Nixie One', cursive;
-  font-size:20px;
-  color: #fff;
-  }
+}
 
-.facebook{
-  margin-left: 80px;
+.content {
+  width:90%;
+  text-align: center;
+}
 
-  }
-.twitter{
-  margin-left: 120px;
-  }
+.quiet { color: #fff; }
+.soft { color: #999; }
+
+ul {
+  font-size: 30px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+#FAQ {
+  widows: 100%
+}
+
+#tag {
+  font-family: 'Niconne';
+  font-size: 26px;
+}
+
+.nav {
+  font-size: 58px;
+  padding: 40px;
+  left: 0px;
+  z-index: 999;
+  width:100%;
+}
+
+a   .nav {
+  padding-left: 40px;
+}
+
+.fixed {
+  position: fixed;
+  top: 0px;
+  background-color: #000;
+}
