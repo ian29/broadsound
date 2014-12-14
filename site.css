@@ -75,12 +75,12 @@ ul {
   width:100%;
 }
 
-a   .nav {
-  padding-left: 40px;
+.nav a {
+  padding-left: 5%;
 }
 
 .fixed {
   position: fixed;
   top: 0px;
-  background-color: #000;
+  background-color: #1b1b1b;
 }
